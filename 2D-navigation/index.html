@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>National Scholarships Portal</title>
+    <meta name="description" content="2D navigation demo" />
+    <meta name="author" content="Henrik Ingo" />
+    <link href="../../css/impress-common.css" rel="stylesheet" />
+    <link href="css/presentation.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<!-- Some images that are fixed to background in the css -->
+
+
+
+
+<div id="impress" data-transition-duration="1000">
+
+    <div class="step" data-scale="2" data-x="-500" data-y="-500">
+        <h1>National Scholarships Portal</h1>
+            <p>Mr. Umesh Aggrawal</p>
+            <p>&#40; New Delhi &#41;</p>
+<a href="./"></a>
+    </div>
+
+    <div id="contents" class="step" data-rel-x="1500" data-rel-y="1500" data-scale="1">
+        <h1 >The National Scholarships Portal</h1>
+        <P id="nsp" onclick="myNsp()">The National Scholarships Portal (NSP) is a digital platform introduced by the Government of India to streamline the scholarship application and disbursement process for various centrally sponsored scholarships.</P>
+    </div>
+
+    <!-- Ice cream slides (3) -->
+    <div id="icecream" class="step" data-x="2000" data-y="2000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="contents icecream-pro contents crisps">
+        <h1>Key features and benefits of NSP</h1>
+        <ul>
+            <li class="design" id="centralized" onclick="myFunction()" >Centralized Application Process</li>
+            <li class="design" id="multiple" onclick="myMultiple()">Multiple Scholarship Schemes</li>
+            <li class="design"  id="transparency" onclick="myTransparency()">Transparency and Accountability</li>
+            <li class="design" id="disbursement" onclick="myDisbursement()">Timely Disbursement</li>
+            <li class="design" id="interface" onclick="myInterface()">User-Friendly Interface</li>
+            <li class="design" id="application" onclick="myApplication()">Mobile Application</li>
+            <li class="design" id="authorities" onclick="myAuthorities()">Dashboards for Authorities</li>
+            <li class="design" id="digitization" onclick="myDigitization()">Digitization of Documents</li>
+           
+        </ul>
+ </div>
+
+    <div id="icecream-pro" class="step" data-rel-x="0" data-rel-y="1000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="icecream icecream-con applepie crisps-pro">
+        <h1>Key challenges or Problem areas / Pain points </h1>
+        <li>
+            Manual war deployments are often slow and infrequent due to <B> time-consuming manual testing</B> and deployment processes.
+
+        </li>
+        <li> In larger development teams, integrating code changes from different developers can be challenging, leading to <b>integration conflicts.</b> 
+        </li>
+        <li>  In case of issues with a <b>release, rollbacks</b> can be challenging and time-consuming. </li>
+        <li>Developers may face issues when deploying code to different environments due to inconsistencies in configuration.</li>
+        <li>Monitoring required to identify the problem or service status and resolve it quickly</li>
+          </div>
+
+
+    <div id="icecream-con" class="step" data-rel-x="0" data-rel-y="1000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="icecream-pro crisps applepie-pro crisps-con">
+        <h1 type="button" onclick="mypFunction()">Problem Statement        </h1>
+        
+        <div id="demo" style="display: none;"> 
+                        <ul>
+
+                        <li>Manual war deployments are often slow and infrequent due to time-consuming manual testing and deployment processes.</li>
+                        <li>In larger development teams, integrating code changes from different developers can be challenging, leading to integration conflicts.             </li>
+                        <li>In case of issues with a release, rollbacks can be challenging and time-consuming.            </li>
+                        <li>Developers may face issues when deploying code to different environments due inconsistencies in configuration. </li>
+
+                        </ul>
+
+        </div>
+
+       <p id="solution" onclick="mySolution()">Solution Statement</p>
+      
+        <ul>
+            <li class="design" id="faster" onclick="myFaster()">Faster and More Frequent Releases</li>
+            <li class="design" id="improved" onclick="myImproved()">Improved Code Quality </li>
+            <li class="design" id="reduced" onclick="myReduced()">Reduced Manual Errors </li>
+            <li class="design" id="increased" onclick="myIncreased()"> Increased Collaboration</li>
+            <li class="design" id="timecost" onclick="myTimecost()"> Time and Cost Savings</li>
+        </ul>
+
+    </div>
+
+
+
+  <!-- Crisps slides (3) -->
+  <div id="crisps" class="step" data-x="3500" data-y="2000"
+  data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+  data-goto-next-list="icecream-con crisps-pro icecream applepie">
+
+ <h1 type="button" onclick="myMonitoringsetup()">Monitoring Setup for all servers </h1>
+        
+ <div id="monitoringsetup" style="display: none;"> 
+     <ul>
+ 
+     <li>DB servers(connection count/load/Materialised view/backup status).</li>
+     <li>Haproxy servers(load/instances status/count request)</li>
+     <li>OCP servers(load/machine status)    </li>
+     <li>API servers(load/instance status/api performance status) </li>
+     
+     <h1>Problem Statement</h1>
+        <li>Monitoring required to identify the problem or service critical status and resolve it quickly.
+        </li>
+        <li>Customers were not getting real-time insights into the health and performance of systems and applications, so mostly they received problems facing mail through users.</li>
+        <li>Problem solving was taking time because manually checking the cause of the problem will take time.</li>
+        <li>Users require monitoring the resources allocated across different components of the setup. This information helps in optimising resource distribution and avoiding resource conflicts.
+        </li>
+        
+ </ul>
+ 
+ </div>
+ 
+        <p id="solution" onclick="mySolution()">Solution Statement</p>
+       
+         <ul>
+             <li class="design" id="faster" onclick="myFaster()">Comprehensive Monitoring</li>
+             <li class="design" id="improved" onclick="myImproved()">Real-time Alerting </li>
+             <li class="design" id="reduced" onclick="myReduced()">Centralized Dashboard </li>
+             <li class="design" id="increased" onclick="myIncreased()">Customizable Dashboards</li>
+             <li class="design" id="timecost" onclick="myTimecost()"> Historical Data Analysis</li>
+             <li class="design" id="improved" onclick="myImproved()">Integration with Multiple Data Sources </li>
+             <li class="design" id="reduced" onclick="myReduced()">User-friendly Interface</li>
+             <li class="design" id="increased" onclick="myIncreased()">Scalability</li>
+             <li class="design" id="timecost" onclick="myTimecost()">Cost-Effectiveness</li>
+       
+         </ul>
+ 
+
+</div>
+
+
+
+
+
+    <div id="crisps-pro" class="step" data-rel-x="0" data-rel-y="1000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="crisps crisps-con icecream-pro applepie-pro">
+         <h1>OCP Setup</h1>
+
+        <ul>
+            <li class="design" id="simplified" onclick="mySimplified()">Simplified Application Deployment</li>
+            <li class="design" id="scalability" onclick="myScalability()">Scalability</li>
+            <li class="design" id="container" onclick="myContainer()">Container Management</li>
+            <li class="design" id="devenbl" onclick="myDevopsenbl()">DevOps Enablement</li>
+            <li class="design" id="applporti" onclick="myApplporti()">Application Portability</li>
+            <li class="design" id="monitoring" onclick="myMonitoring()">Monitoring and Logging</li>
+        </ul>
+    </div>
+
+
+    <div id="crisps-con" class="step" data-rel-x="0" data-rel-y="1000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="crisps-pro applepie icecream-con applepie-con">
+         <h1> Problems</h1>
+         <p id="solution" onclick="mySolution()">Elasticsearch</p>
+         <ul>
+             <li class="design" id="Ab" onclick="myAbcd()">Full-text Search    </li>
+             <li class="design" id="Ac" onclick="myAbdc()">Real-time Data Indexing</li>
+             <li class="design" id="Ad" onclick="myAbce()">Scalability and High Availability</li>
+             <li class="design" id="Ae" onclick="myAbcf()">JSON-based Documents</li>
+             <li class="design" id="Af" onclick="myAbcg()">Aggregation and Analytics </li>
+             <li class="design" id="Ag" onclick="myAbch()">RESTful API  </li>
+             <li class="design" id="Ah" onclick="myAbci()">Open-source and Active Community</li>
+             <li class="design" id="Ai" onclick="myAbcj()">Multi-language Support</li>
+             <li class="design" id="Aj" onclick="myAbck()">Integration with the Elastic Stack </li>
+             <li class="design" id="Ak" onclick="myAbcl()">Near Real-time Analytics </li>
+           </ul>
+           <img src="./images/elastic.jpg" style="display: none;" alt="no name" >
+           <img src="./images/elastic2.jpg" style="display: none;" alt="no name" >
+    </div>
+ 
+
+    <!-- Apple pie slides (3) -->
+     <div id="applepie" class="step" data-x="5000" data-y="2000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="crisps-con applepie-pro crisps icecream-pro">
+         <h1>Problems </h1>
+         <p id="solution" onclick="mySolution()">APIsix </p>
+ 
+         <ul>
+             <li class="design">Microservices Architecture </li>
+             <li class="design">Load Balancing</li>
+             <li class="design">Security and Authentication</li>
+             <li class="design">Caching</li>
+             <li class="design"> Logging and Monitoring</li>
+             <li class="design">Analytics and Metrics</li>
+             <li class="design">Service Discovery and Health Checks</li>
+             <li class="design">API Versioning</li>
+         </ul>
+         <img src="./images/Apisix.png" style="display: none;" alt="no name" >
+         <img src="./images/elastic2.jpg" style="display: none;" alt="no name" >
+    </div>
+
+    <div id="applepie-pro" class="step" data-rel-x="0" data-rel-y="1000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="applepie applepie-con crisps-pro icecream-con">
+         <h1 id="postgresqlset" onclick="myPostgre()">PostgreSQL setup upgrade latest version</h1>
+
+         <h1>HAProxy (High Availability Proxy)</h1>
+    </div>
+
+
+    <div id="applepie-con" class="step" data-rel-x="0" data-rel-y="1000"
+         data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
+         data-goto-next-list="applepie-pro conclusion crisps-con conclusion">
+        <h1>Apple pie: Con's</h1>
+
+        <ul>
+            <li>I'm allergic to apple (but a small slice is worth it)</li>
+            <li>Not finger food</li>
+        </ul>
+    </div>
+
+
+    <div id="conclusion" class="step" data-rel-x="1000" data-rel-y="1000">
+        <h1>Conclusion</h1>
+
+        <p>Can I choose all three ;-)</p>
+
+        <p style="font-size: small; position: absolute; bottom: 30px; left: 300px;" id="image-credits"
+        >Image credits: <a href="https://www.flickr.com/photos/reimagingerica/35535918670">reimagingerica@Flickr</a>, 
+                        <a href="https://www.flickr.com/photos/mixedmolly/6636957665">mixedmolly@Flickr</a>,
+                        <a href="https://www.flickr.com/photos/stevepj2009/6296334551">stevepj2009@Flickr</a> </p>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="2000" data-scale="9" style="pointer-events: none;">
+    </div> -->
+</div>
+
+<div id="impress-toolbar"></div>
+
+<div class="impress-progressbar"><div></div></div>
+<div class="impress-progress"></div>
+
+<div id="impress-help"></div>
+
+<script src="mani.js"></script>
+<script type="text/javascript" src="../../js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
